@@ -37,7 +37,7 @@ class Grille {
     public function grilleRemplie() {
         foreach ($this->_grille as $ligne) {
             foreach ($ligne as $case) {
-                if (empty($case->getType())) {
+                if ($case->getType()=="") {
                     return false;
                 }
             }
