@@ -32,7 +32,7 @@ class Caze {
          }
      }
      public function equals($case){
-         if($this->_type==$case->getType()&&!empty($case->getType())){
+         if($this->_type==$case->getType()&&($case->getType()!="")){
              return true;
          }else{
              return false;
