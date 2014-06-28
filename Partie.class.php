@@ -23,7 +23,7 @@ class Partie {
      * @return les codes se trouvent explicités dans jeu.php
      */
     public function jouer($case) {
-            if($this->_grille->getPositionedCase($case)->getType()!=""){
+            if($this->_grille->getPositionedCase($case)->getType()==""){
             $this->_grille->getPositionedCase($case)->setType($case->getType());
             }else{
                 return 3;
