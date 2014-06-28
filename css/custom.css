@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+}
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
+}
+
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .credit {
+  margin: 20px 0;
+}
+/* la grille de jeu*/
+table td input[type='submit'] {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+}
+table td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 2em;
+    font-family: monospace;
+}
+table td:first-child {
+    border-right: 2px solid green;
+}
+table td:last-child {
+    border-left: 2px solid green;
+}
+table tr:first-child td {
+    border-bottom: 2px solid green;
+}
+table tr:last-child td {
+    border-top: 2px solid green;
+}
+/* END de la grille de jeu*/
