@@ -9,10 +9,6 @@ class Joueur {
         $this->_signe = $signe;
     }
 
-    public function jouer() {
-        
-    }
-
     public function getPseudo() {
         return $this->_pseudo;
     }
