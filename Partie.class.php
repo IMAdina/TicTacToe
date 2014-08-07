@@ -11,7 +11,6 @@ class Partie {
         $joueur2 = new Joueur($pseudoJoueur2, $signeJoueur2);
         $this->_joueurs=array($joueur1, $joueur2);
         $this->_grille = new Grille();
-        $this->_joueurs = array($joueur1, $joueur2);
         if ($joueur1->getSigne() == strtolower('x')) {
             $this->_joueurCourant = $joueur1;
         } else {
